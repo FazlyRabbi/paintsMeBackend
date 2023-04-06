@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sidebars",
+  "info": {
+    "singularName": "sidebar",
+    "pluralName": "sidebars",
+    "displayName": "Sidebars",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainManu": {
+      "type": "string",
+      "required": true
+    },
+    "SubItems": {
+      "displayName": "Sub Menu",
+      "type": "component",
+      "repeatable": true,
+      "component": "submenu.sub-menu",
+      "required": true
+    }
+  }
+}

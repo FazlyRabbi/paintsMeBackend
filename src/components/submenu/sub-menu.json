@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_submenu_sub_menus",
+  "info": {
+    "displayName": "Sub Menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Submenu": {
+      "type": "string"
+    }
+  }
+}
