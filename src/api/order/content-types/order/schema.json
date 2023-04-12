@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Shipping": {
+      "displayName": "ship",
+      "type": "component",
+      "repeatable": false,
+      "component": "shipp.ship"
+    },
+    "Billing": {
+      "displayName": "bil",
+      "type": "component",
+      "repeatable": false,
+      "component": "billi.bil"
+    },
+    "orderInfo": {
+      "displayName": "prod",
+      "type": "component",
+      "repeatable": false,
+      "component": "produc.prod"
+    },
+    "products": {
+      "displayName": "products",
+      "type": "component",
+      "repeatable": true,
+      "component": "prod.products"
+    }
+  }
+}

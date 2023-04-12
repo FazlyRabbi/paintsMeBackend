@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_produc_prods",
+  "info": {
+    "displayName": "prod",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "orderId": {
+      "type": "string"
+    },
+    "paymentInfo": {
+      "type": "string"
+    }
+  }
+}

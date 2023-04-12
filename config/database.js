@@ -1,13 +1,15 @@
+
 module.exports = ({ env }) => ({
   connection: {
-    client: "postgres",
+    client: 'postgres',
     connection: {
-      host: env("DATABASE_HOST", "containers-us-west-172.railway.app"),
-      port: env.int("DATABASE_PORT", 8014),
-      database: env("DATABASE_NAME", "railway"),
-      user: env("DATABASE_USERNAME", "postgres"),
-      password: env("DATABASE_PASSWORD", "EJ3hXj5LHoInsOna1UKa"),
-      ssl: env.bool("DATABASE_SSL", true),
+      host: env('DATABASE_HOST', 'dpg-cgc15r82qv267uaq5h90-a.singapore-postgres.render.com'),
+      port: env.int('DATABASE_PORT', 5432),
+      database: env('DATABASE_NAME', 'kingdomofkush'),
+      user: env('DATABASE_USERNAME', 'kingdomofkush_user'),
+      password: env('DATABASE_PASSWORD', 'kingdomofkush_user'),
+      ssl: env.bool('DATABASE_SSL', true),
     },
   },
 });
+

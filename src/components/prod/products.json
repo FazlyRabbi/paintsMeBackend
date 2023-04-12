@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_prod_products",
+  "info": {
+    "displayName": "products",
+    "icon": "laptop-medical",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "string"
+    },
+    "customHeight": {
+      "type": "string"
+    },
+    "customWidth": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    },
+    "jobName": {
+      "type": "string"
+    },
+    "lamination": {
+      "type": "string"
+    },
+    "material": {
+      "type": "string"
+    },
+    "production_time": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "reinforce": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "width_length": {
+      "type": "string"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "total": {
+      "type": "string"
+    }
+  }
+}

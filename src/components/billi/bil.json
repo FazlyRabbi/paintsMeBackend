@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_billi_bils",
+  "info": {
+    "displayName": "bil"
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "country": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "zipCode": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    }
+  }
+}
