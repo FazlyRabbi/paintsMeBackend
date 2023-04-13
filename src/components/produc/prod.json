@@ -11,6 +11,13 @@
     },
     "paymentInfo": {
       "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "default": "meaking"
+    },
+    "price": {
+      "type": "string"
     }
   }
 }

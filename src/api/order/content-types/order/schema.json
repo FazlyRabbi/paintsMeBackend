@@ -35,6 +35,17 @@
       "type": "component",
       "repeatable": true,
       "component": "prod.products"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
