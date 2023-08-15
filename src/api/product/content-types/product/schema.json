@@ -60,6 +60,34 @@
     },
     "basePrice": {
       "type": "integer"
+    },
+    "bindedPrice": {
+      "type": "integer",
+      "required": true
+    },
+    "loosePrice": {
+      "type": "integer"
+    },
+    "blackWhitePrice": {
+      "type": "integer"
+    },
+    "colorPrice": {
+      "type": "integer"
+    },
+    "mattePrice": {
+      "type": "integer"
+    },
+    "glossPrice": {
+      "type": "integer"
+    },
+    "businessDayPrice": {
+      "type": "integer"
+    },
+    "nextDayPrice": {
+      "type": "integer"
+    },
+    "sameDayPrice": {
+      "type": "integer"
     }
   }
 }
